@@ -50,7 +50,7 @@
  */
 - (NSDate *)date;
 
-@property (copy, nonatomic) id userInfo;
+- (id)userInfo;
 
 @end
 
