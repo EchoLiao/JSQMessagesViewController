@@ -50,6 +50,8 @@
  */
 - (NSDate *)date;
 
+@property (copy, nonatomic) id userInfo;
+
 @end
 
 #endif
