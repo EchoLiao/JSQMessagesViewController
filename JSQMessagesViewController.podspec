@@ -9,11 +9,11 @@ Pod::Spec.new do |s|
 	s.author				= { 'Jesse Squires' => 'jesse.squires.developer@gmail.com' }
 	s.social_media_url		= 'https://twitter.com/jesse_squires'
 	s.source				= { :git => 'https://github.com/jessesquires/JSQMessagesViewController.git', :tag => s.version.to_s }
-	s.platform				= :ios, '7.0'	
+	s.platform				= :ios, '7.0'
 	s.source_files			= 'JSQMessagesViewController/**/*.{h,m}'
 	s.resources				= 'JSQMessagesViewController/Assets/**/*.{png,aiff}', 'JSQMessagesViewController/**/*.{xib}'
 	s.frameworks			= 'QuartzCore', 'CoreGraphics'
 	s.requires_arc			= true
 
-	s.dependency 'JSQSystemSoundPlayer'
+	s.dependency 'JSQSystemSoundPlayer', '1.5.2'
 end
