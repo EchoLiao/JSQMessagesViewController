@@ -50,6 +50,8 @@
  */
 - (NSDate *)date;
 
+- (id)userInfo;
+
 @end
 
 #endif

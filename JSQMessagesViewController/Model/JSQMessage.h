@@ -42,6 +42,8 @@
  */
 @property (copy, nonatomic) NSDate *date;
 
+@property (retain, nonatomic) id userInfo;
+
 #pragma mark - Initialization
 
 /**
